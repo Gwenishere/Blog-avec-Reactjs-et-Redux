@@ -1,0 +1,91 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  padding: 30px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  text-align: center;
+  width: 900px;
+  height: 500px;
+  margin-top: 200px;
+  background-color: whitesmoke;
+}
+.profile:hover {
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.08);
+}
+
+.profile p {
+  color: rgb(7, 7, 22);
+}
+
+.profile-email {
+  font-size: 16px;
+  text-transform: inherit;
+  margin: 30px;
+}
+
+.profile-details {
+  font-size: 16px;
+  text-transform: inherit;
+  margin: 50px;
+}
+
+.profile-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-btn-edit,
+.profile-btn-delete {
+  display: inline-block;
+  white-space: nowrap;
+  background-color: rgb(252, 248, 248);
+  background-image: linear-gradient(top, #eee, #ccc);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+  border: 1px solid #777;
+  padding: 0 1.5em;
+  margin: 0.5em;
+  font: bold 1em/2em Arial, Helvetica;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset,
+    0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.profile-btn-delete::before {
+  background-color: rgb(206, 50, 50);
+  float: left;
+  width: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 1em 0 -1em;
+  padding: 0 0.2em;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+  border-radius: 8px 0 0 8px;
+  pointer-events: none;
+  content: '\2718';
+}
+
+.profile-btn-edit::before {
+  background-color: rgb(10, 155, 83);
+  float: left;
+  width: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0 1em 0 -1em;
+  padding: 0 0.2em;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+  border-radius: 8px 0 0 8px;
+  pointer-events: none;
+  content: '\270E';
+}
+
+.profile-btn-delete:hover,
+.profile-btn-edit:hover {
+  cursor: pointer;
+}

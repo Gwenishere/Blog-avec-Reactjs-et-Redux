@@ -1,0 +1,27 @@
+.home-title {
+  font-size: 30px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto 0;
+}
+
+.home-link {
+  text-decoration: none;
+  background-color: rgba(1, 1, 62, 0.841);
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  color: whitesmoke;
+  border-radius: 20px;
+}
+

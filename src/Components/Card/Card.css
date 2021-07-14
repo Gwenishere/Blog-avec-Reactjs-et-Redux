@@ -1,0 +1,17 @@
+.card {
+  max-width: 600px;
+  min-width: 600px;
+  min-height: 400px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 3px 8px lightgrey, 0 0 2px lightgrey;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  border-radius: 3px;
+  background-color: whitesmoke;
+}
+

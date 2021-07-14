@@ -1,0 +1,16 @@
+body {
+  font-family: Lato;
+  background-color: #3e59ab;
+  background-image: url('https://www.transparenttextures.com/patterns/gplay.png');
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+

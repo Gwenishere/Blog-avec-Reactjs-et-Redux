@@ -1,0 +1,85 @@
+.title-form {
+  text-align: center;
+  color: whitesmoke;
+  margin: 150px 0 0;
+}
+
+.container-form {
+  padding: 10px;
+  max-width: 600px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.container-form input,
+.container-form textarea {
+  padding: 10px;
+  margin-bottom: 30px;
+  font-family: Lato;
+  font-size: 16px;
+}
+
+.container-form button {
+  text-decoration: none;
+  background-color: #fe4066;
+  text-shadow: 0px 0px 1px #bf4c28;
+  width: 100px;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 24px;
+  color: whitesmoke;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.container-form button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 9px #00fff8;
+}
+
+.input-title {
+  background-size: 24px;
+  padding-inline-start: 52px;
+  padding-inline-end: 10px;
+  box-shadow: 0 3px 8px lightgrey, 0 0 2px lightgrey;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 500;
+  min-height: 50px;
+  font-size: 15px;
+}
+
+.input-body {
+  max-height: 300px;
+  background-size: 24px;
+  padding-inline-start: 52px;
+  padding-inline-end: 10px;
+  box-shadow: 0 3px 8px lightgrey, 0 0 2px lightgrey;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 500;
+  min-height: 50px;
+  font-size: 15px;
+}
+
+.delete-button {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.delete-icon {
+  width: 30px;
+}
